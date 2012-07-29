@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @mircopost.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @mircopost.user_id %>
+</p>
+
+<p>
+  <b>Invoke:</b>
+  <%= @mircopost.invoke %>
+</p>
+
+<p>
+  <b>Active record:</b>
+  <%= @mircopost.active_record %>
+</p>
+
+
+<%= link_to 'Edit', edit_mircopost_path(@mircopost) %> |
+<%= link_to 'Back', mircoposts_path %>
